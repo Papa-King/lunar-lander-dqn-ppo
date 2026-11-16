@@ -13,7 +13,7 @@ This repository contains the two models selected after the Lunar Lander optimiza
 
 The selected PPO is an **extended experiment** beyond the course competition's 200,000-timestep final-run limit. The original classroom DQN, selected DQN, and PPO use different checkpoints and evaluation sets; compare results only within a recorded evaluation round.
 
-`research/selected/models.json` stores SHA-256 hashes for all five preserved research candidates, including the two selected models above. Their training settings and validation histories are in `research/runs/`. The controlled DQN learning-rate comparison uses the same 100 test starts for six 100,000-step runs; see `research/PHASE2_RESULTS.md`. The PPO approach and its trade-offs are described in `research/SLOW_LANDING_RESULTS.md`.
+`research/selected/models.json` stores SHA-256 hashes for all five preserved research candidates, including the two selected models above. Their training settings and validation histories are in `research/runs/`. The controlled DQN learning-rate comparison uses the same 100 test starts for six 100,000-step runs; see `research/PHASE2_RESULTS.md`. After that comparison, the seed-123 DQN run continued to 200,000 steps, so its later `best_landing.zip` and `training_summary.json` describe the extended run. The exact original 100,000-step checkpoint is preserved both as `research/selected/softer_dqn_seed123.zip` and `research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip`. Use that immutable checkpoint to reproduce the 232.13 result. The PPO approach and its trade-offs are described in `research/SLOW_LANDING_RESULTS.md`.
 
 ## Set up
 

@@ -22,10 +22,11 @@ __pycache__/
 research/runs/**/*.zip
 research/runs/**/*.pkl
 
-# Retain the six frozen DQN checkpoints used by phase2_compare.py.
+# Retain DQN comparison checkpoints and the immutable seed-123 100k source.
 !research/runs/dqn_zoo_seed42/best_landing.zip
 !research/runs/dqn_zoo_seed7/best_landing.zip
 !research/runs/dqn_zoo_seed123/best_landing.zip
 !research/runs/dqn_zoo_lr0003_seed42/best_landing.zip
 !research/runs/dqn_zoo_lr0003_seed7/best_landing.zip
 !research/runs/dqn_zoo_lr0003_seed123/best_landing.zip
+!research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip
