@@ -1,0 +1,315 @@
+{
+  "environment": "LunarLander-v3",
+  "evaluation_episodes": 30,
+  "mean_reward": -89.89430877013336,
+  "reward_std": 25.242960411150072,
+  "two_leg_landing_rate": 0.0,
+  "score_200_rate": 0.0,
+  "mean_action_switch_rate": 0.7656322989656322,
+  "truncation_rate": 1.0,
+  "episodes": [
+    {
+      "seed": 786669,
+      "reward": -57.63570678829211,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7647647647647647
+    },
+    {
+      "seed": 672511,
+      "reward": -55.81335932478585,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7597597597597597
+    },
+    {
+      "seed": 229200,
+      "reward": -139.37747549034037,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7867867867867868
+    },
+    {
+      "seed": 348659,
+      "reward": -61.569237960711696,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7497497497497497
+    },
+    {
+      "seed": 398826,
+      "reward": -122.20538558539418,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7817817817817818
+    },
+    {
+      "seed": 533002,
+      "reward": -94.03680990149452,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7647647647647647
+    },
+    {
+      "seed": 630061,
+      "reward": -46.34324181646923,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7527527527527528
+    },
+    {
+      "seed": 31207,
+      "reward": -92.58370748776309,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7547547547547547
+    },
+    {
+      "seed": 249119,
+      "reward": -120.97176700988564,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7687687687687688
+    },
+    {
+      "seed": 416150,
+      "reward": -80.38440699146541,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7607607607607607
+    },
+    {
+      "seed": 16832,
+      "reward": -121.35841993954263,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7817817817817818
+    },
+    {
+      "seed": 690904,
+      "reward": -91.17055990869777,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7867867867867868
+    },
+    {
+      "seed": 913234,
+      "reward": -109.12901225089713,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7757757757757757
+    },
+    {
+      "seed": 577856,
+      "reward": -112.92220717129595,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7737737737737738
+    },
+    {
+      "seed": 624522,
+      "reward": -122.93197734751733,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7657657657657657
+    },
+    {
+      "seed": 864859,
+      "reward": -53.6978748520725,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7407407407407407
+    },
+    {
+      "seed": 993043,
+      "reward": -71.00205594102907,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7727727727727728
+    },
+    {
+      "seed": 659315,
+      "reward": -72.71736666360614,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7547547547547547
+    },
+    {
+      "seed": 736747,
+      "reward": -68.30121944122709,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7617617617617618
+    },
+    {
+      "seed": 87213,
+      "reward": -141.19616432602388,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7527527527527528
+    },
+    {
+      "seed": 489627,
+      "reward": -75.80784564916617,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7637637637637638
+    },
+    {
+      "seed": 403880,
+      "reward": -65.77532371482032,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7677677677677678
+    },
+    {
+      "seed": 928633,
+      "reward": -86.57513409763611,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7767767767767768
+    },
+    {
+      "seed": 39715,
+      "reward": -100.16159027569029,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7817817817817818
+    },
+    {
+      "seed": 480043,
+      "reward": -68.6179370789029,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7427427427427428
+    },
+    {
+      "seed": 921431,
+      "reward": -96.30357175841819,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7707707707707707
+    },
+    {
+      "seed": 726362,
+      "reward": -97.74937315587994,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7827827827827828
+    },
+    {
+      "seed": 178020,
+      "reward": -89.81447838733453,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7467467467467468
+    },
+    {
+      "seed": 914033,
+      "reward": -98.8745091679005,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7697697697697697
+    },
+    {
+      "seed": 583868,
+      "reward": -81.80154361974066,
+      "steps": 1000,
+      "terminated": false,
+      "truncated": true,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.7547547547547547
+    }
+  ],
+  "step": 200000,
+  "checkpoint_kind": "periodic",
+  "split": "validation"
+}

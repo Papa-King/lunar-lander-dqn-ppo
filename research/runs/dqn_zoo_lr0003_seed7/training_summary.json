@@ -1,0 +1,12 @@
+{
+  "algorithm": "dqn",
+  "environment": "LunarLander-v3",
+  "seed": 7,
+  "requested_target_timesteps": 100000,
+  "actual_timesteps": 100000,
+  "episodes_completed": 214,
+  "training_seconds_cumulative": 71.34952137502842,
+  "validation_episodes_per_check": 30,
+  "best_reward_step": 100000,
+  "best_landing_step": 100000
+}

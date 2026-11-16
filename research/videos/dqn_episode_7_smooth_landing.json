@@ -1,0 +1,14 @@
+{
+  "source_video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/ten_consecutive_dqn_seed123_start271828182.mp4",
+  "source_episode": 7,
+  "source_start_frame": 2486,
+  "source_end_frame_exclusive": 2791,
+  "frames": 305,
+  "fps": 50,
+  "duration_seconds": 6.1,
+  "reward": 260.9157632172411,
+  "outcome": "safe_rest",
+  "model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/selected/softer_dqn_seed123.zip",
+  "model_sha256": "3f584dd829a94312a372a45b3b9036eba15772bc8d8edb46e9cf192000b7e6ab",
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/dqn_episode_7_smooth_landing.mp4"
+}

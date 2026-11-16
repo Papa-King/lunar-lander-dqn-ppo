@@ -1,0 +1,209 @@
+{
+  "source_result": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/comparisons/phase11_seed42_400_combined.json",
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/top20_from_400_slow_ppo_v3_seed42.mp4",
+  "fps": 50,
+  "duration_seconds": 180.24,
+  "selection": "Top 20 calmest eligible from all 400; ordered rank 1 to 20",
+  "filmed": [
+    {
+      "rank": 1,
+      "round": 1,
+      "test_episode": 194,
+      "seed": 202049141,
+      "steps": 436,
+      "duration_seconds": 8.74,
+      "reward": 237.848225013647,
+      "calmness_score": 0.044019158212732626
+    },
+    {
+      "rank": 2,
+      "round": 2,
+      "test_episode": 108,
+      "seed": 1036286953,
+      "steps": 441,
+      "duration_seconds": 8.84,
+      "reward": 252.70976322417283,
+      "calmness_score": 0.04748689824295541
+    },
+    {
+      "rank": 3,
+      "round": 2,
+      "test_episode": 71,
+      "seed": 507372040,
+      "steps": 477,
+      "duration_seconds": 9.56,
+      "reward": 237.08152141101914,
+      "calmness_score": 0.05107993339023502
+    },
+    {
+      "rank": 4,
+      "round": 1,
+      "test_episode": 129,
+      "seed": 1259026955,
+      "steps": 443,
+      "duration_seconds": 8.88,
+      "reward": 215.90286595394124,
+      "calmness_score": 0.053022526808489824
+    },
+    {
+      "rank": 5,
+      "round": 1,
+      "test_episode": 64,
+      "seed": 1025834697,
+      "steps": 456,
+      "duration_seconds": 9.14,
+      "reward": 213.62194236658732,
+      "calmness_score": 0.060770266228756406
+    },
+    {
+      "rank": 6,
+      "round": 1,
+      "test_episode": 114,
+      "seed": 192577748,
+      "steps": 457,
+      "duration_seconds": 9.16,
+      "reward": 252.66872522240925,
+      "calmness_score": 0.07991476982930773
+    },
+    {
+      "rank": 7,
+      "round": 2,
+      "test_episode": 152,
+      "seed": 801131996,
+      "steps": 443,
+      "duration_seconds": 8.88,
+      "reward": 221.74446568533688,
+      "calmness_score": 0.08233342511354126
+    },
+    {
+      "rank": 8,
+      "round": 1,
+      "test_episode": 19,
+      "seed": 1615932900,
+      "steps": 460,
+      "duration_seconds": 9.22,
+      "reward": 214.27506164832667,
+      "calmness_score": 0.08263228163262082
+    },
+    {
+      "rank": 9,
+      "round": 1,
+      "test_episode": 45,
+      "seed": 820962821,
+      "steps": 449,
+      "duration_seconds": 9.0,
+      "reward": 270.18292276583577,
+      "calmness_score": 0.08745724630100726
+    },
+    {
+      "rank": 10,
+      "round": 2,
+      "test_episode": 91,
+      "seed": 503912695,
+      "steps": 450,
+      "duration_seconds": 9.02,
+      "reward": 238.70401491195858,
+      "calmness_score": 0.0914507987882561
+    },
+    {
+      "rank": 11,
+      "round": 1,
+      "test_episode": 165,
+      "seed": 1380567242,
+      "steps": 456,
+      "duration_seconds": 9.14,
+      "reward": 241.80532126333418,
+      "calmness_score": 0.11275962115685752
+    },
+    {
+      "rank": 12,
+      "round": 1,
+      "test_episode": 34,
+      "seed": 1052317504,
+      "steps": 434,
+      "duration_seconds": 8.7,
+      "reward": 269.62043653356716,
+      "calmness_score": 0.11319650504118445
+    },
+    {
+      "rank": 13,
+      "round": 1,
+      "test_episode": 30,
+      "seed": 1939073039,
+      "steps": 429,
+      "duration_seconds": 8.6,
+      "reward": 216.476317957433,
+      "calmness_score": 0.11346829975864817
+    },
+    {
+      "rank": 14,
+      "round": 1,
+      "test_episode": 191,
+      "seed": 703422443,
+      "steps": 473,
+      "duration_seconds": 9.48,
+      "reward": 230.2398799869449,
+      "calmness_score": 0.11531454116305705
+    },
+    {
+      "rank": 15,
+      "round": 1,
+      "test_episode": 160,
+      "seed": 1081485573,
+      "steps": 445,
+      "duration_seconds": 8.92,
+      "reward": 241.62827566514235,
+      "calmness_score": 0.11800585570598081
+    },
+    {
+      "rank": 16,
+      "round": 2,
+      "test_episode": 38,
+      "seed": 1966912096,
+      "steps": 460,
+      "duration_seconds": 9.22,
+      "reward": 233.08711967727027,
+      "calmness_score": 0.11950556038327162
+    },
+    {
+      "rank": 17,
+      "round": 2,
+      "test_episode": 117,
+      "seed": 750294724,
+      "steps": 449,
+      "duration_seconds": 9.0,
+      "reward": 231.9559105979414,
+      "calmness_score": 0.1348499749728454
+    },
+    {
+      "rank": 18,
+      "round": 2,
+      "test_episode": 77,
+      "seed": 978381430,
+      "steps": 446,
+      "duration_seconds": 8.94,
+      "reward": 245.2034635628173,
+      "calmness_score": 0.14911012511184685
+    },
+    {
+      "rank": 19,
+      "round": 1,
+      "test_episode": 166,
+      "seed": 286086554,
+      "steps": 452,
+      "duration_seconds": 9.06,
+      "reward": 189.26203652373857,
+      "calmness_score": 0.1538795949157661
+    },
+    {
+      "rank": 20,
+      "round": 2,
+      "test_episode": 141,
+      "seed": 1757533221,
+      "steps": 436,
+      "duration_seconds": 8.74,
+      "reward": 226.10747637795734,
+      "calmness_score": 0.1578544343277511
+    }
+  ]
+}

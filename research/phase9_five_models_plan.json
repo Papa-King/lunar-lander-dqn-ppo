@@ -1,0 +1,88 @@
+{
+  "purpose": "Five selected models, same 50 fresh starts",
+  "selection_rule": "All five previously frozen selected checkpoints",
+  "seeds": [
+    1600619302,
+    1366823273,
+    458923476,
+    703575555,
+    806315884,
+    1081109796,
+    1279885273,
+    53433051,
+    499716101,
+    841797091,
+    23992371,
+    1404492519,
+    1859824961,
+    1172970868,
+    1268542491,
+    1760753223,
+    1339797770,
+    1498379326,
+    168133039,
+    992276136,
+    816666972,
+    1891362385,
+    70856646,
+    972648639,
+    1876611266,
+    1477110390,
+    354106315,
+    1861459875,
+    1185283023,
+    1021915056,
+    1525602830,
+    523931880,
+    1804049693,
+    1815567808,
+    1756521277,
+    1850255401,
+    257711562,
+    1680405628,
+    623664720,
+    1489448392,
+    635255354,
+    466865342,
+    248596610,
+    1663624392,
+    1475638116,
+    696260647,
+    1192017472,
+    1091899932,
+    1079351860,
+    1774225368
+  ],
+  "models": [
+    {
+      "name": "slow_ppo_v3_seed123",
+      "path": "research/selected/slow_ppo_v3_seed123.zip",
+      "sha256": "4a991e03666bbe7c4b81c7a013a656edcfa1749651a4ccecce04e72b84955c3a",
+      "algorithm": "PPO"
+    },
+    {
+      "name": "slow_ppo_v3_seed7",
+      "path": "research/selected/slow_ppo_v3_seed7.zip",
+      "sha256": "3efe43a75937c31a5f82355b4a03183f28f569c817ca2f7ecff139e8dc61b669",
+      "algorithm": "PPO"
+    },
+    {
+      "name": "slow_ppo_v3_seed42",
+      "path": "research/selected/slow_ppo_v3_seed42.zip",
+      "sha256": "393a894c7ec3635b9fbee5b3bc70c2c66d78cf58220bc6eea7d39e285f639f9b",
+      "algorithm": "PPO"
+    },
+    {
+      "name": "centered_ppo_v2_seed123",
+      "path": "research/selected/centered_ppo_v2_seed123.zip",
+      "sha256": "0a4b546c32564b9e869be677855cadf53c927576a7eede15f8185d786ac98c1a",
+      "algorithm": "PPO"
+    },
+    {
+      "name": "softer_dqn_seed123",
+      "path": "research/selected/softer_dqn_seed123.zip",
+      "sha256": "3f584dd829a94312a372a45b3b9036eba15772bc8d8edb46e9cf192000b7e6ab",
+      "algorithm": "DQN"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/top20_from_400_slow_ppo_v3_seed42.mp4",
+  "source_rank": 1,
+  "source_round": 1,
+  "source_test_episode": 194,
+  "source_seed": 202049141,
+  "source_frames": 437,
+  "source_duration_seconds": 8.74,
+  "edited_duration_seconds": 11.0,
+  "playback_speed_factor": 0.7945454545454546,
+  "technique": "uniform smooth optical-flow retiming; labelled as edited playback",
+  "model_retrained": false,
+  "environment_replayed": false
+}

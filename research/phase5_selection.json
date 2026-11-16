@@ -1,0 +1,12 @@
+{
+  "frozen_before_test5": true,
+  "question": "Does targeted near-ground PPO fine-tuning improve gentle centered landings while keeping safe-rest and pad rates high?",
+  "primary_candidate": "ppo_quality_v2",
+  "primary_reason": "Validation selected the quality_v2 1245184-step periodic checkpoint with 30/30 safe rests, 30/30 centered and 5/30 strict gentle contacts. This was selected before test5.",
+  "comparison_models": [
+    {"name": "dqn_100k", "algorithm": "dqn", "path": "research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip"},
+    {"name": "ppo_original", "algorithm": "ppo", "path": "research/runs/ppo_zoo_seed123/checkpoints/step_000983040_periodic.zip"},
+    {"name": "ppo_quality_v1", "algorithm": "ppo", "path": "research/runs/ppo_quality_finetune_seed123/best_quality.zip"},
+    {"name": "ppo_quality_v2", "algorithm": "ppo", "path": "research/runs/ppo_quality_v2_seed123/best_quality.zip"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "algorithm": "dqn",
+    "environment": "LunarLander-v3",
+    "seed": 7,
+    "learning_rate": 0.00063,
+    "batch_size": 128,
+    "buffer_size": 50000,
+    "learning_starts": 0,
+    "target_update_interval": 250,
+    "exploration_fraction": 0.12,
+    "exploration_final_eps": 0.1,
+    "gradient_steps": -1,
+    "net_arch": [
+      256,
+      256
+    ],
+    "eval_every": 20000,
+    "validation_count": 30
+  },
+  "versions": {
+    "python": "3.12.16",
+    "gymnasium": "1.4.0",
+    "stable_baselines3": "2.9.2",
+    "torch": "2.15.0"
+  },
+  "device": "cpu",
+  "seed_manifest": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/seeds.json"
+}

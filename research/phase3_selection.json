@@ -1,0 +1,12 @@
+{
+  "frozen_before_test3": true,
+  "question": "Does continuing the plain 0.0003 DQN from 100k to 120k or 200k improve centered gentle landings without losing safety?",
+  "selection_split": "validation",
+  "primary_model": "plain_100k",
+  "primary_reason": "At 30 fixed validation starts, the original 100k checkpoint achieved 30/30 safe rests, 27/30 safe centered landings, and 13/30 safe centered gentle contacts. Longer checkpoints trade safety for centered or gentle metrics; retain the safest checkpoint as primary before opening test3.",
+  "models": [
+    {"name": "plain_100k", "step": 100000, "path": "research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip"},
+    {"name": "plain_120k", "step": 120000, "path": "research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000120000.zip"},
+    {"name": "plain_200k_final", "step": 200000, "path": "research/runs/dqn_zoo_lr0003_seed123/best_quality.zip"}
+  ]
+}

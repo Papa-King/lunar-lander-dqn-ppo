@@ -1,0 +1,12 @@
+{
+  "frozen_before_test4": true,
+  "question": "Can a published PPO preset improve pad-centered landings over the preserved DQN, and what happens to touchdown gentleness?",
+  "environment": "LunarLander-v3",
+  "primary_candidate": "ppo_983040",
+  "primary_reason": "Among PPO checkpoints with 30/30 safe and 30/30 centered on validation, 983040 steps had the highest gentle rate (4/30); this was selected before test4.",
+  "comparison_models": [
+    {"name": "dqn_100k", "algorithm": "dqn", "path": "research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip"},
+    {"name": "ppo_983040", "algorithm": "ppo", "path": "research/runs/ppo_zoo_seed123/checkpoints/step_000983040_periodic.zip"},
+    {"name": "ppo_524288", "algorithm": "ppo", "path": "research/runs/ppo_zoo_seed123/checkpoints/step_000524288_periodic.zip"}
+  ]
+}

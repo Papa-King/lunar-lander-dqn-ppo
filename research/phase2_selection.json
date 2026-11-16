@@ -1,0 +1,16 @@
+{
+  "frozen_before_test2": true,
+  "question": "Does reducing only DQN learning_rate from 0.00063 to 0.0003 improve landing outcomes across training seeds?",
+  "training_timesteps_per_model": 100000,
+  "selection_rule": "For each run, use its pre-existing best_landing.zip selected on 30 validation starts by two-leg contact rate and then mean reward. Compare on the same new 100 test2 starts. Do not select from test2.",
+  "primary_new_model": "lr0003_seed123",
+  "primary_reason": "Validation showed 30/30 genuine safe rests and mean reward 245.6 for the lower-rate seed-123 checkpoint; selected before test2.",
+  "models": [
+    {"name": "original_seed42", "family": "lr00063", "training_seed": 42, "path": "research/runs/dqn_zoo_seed42/best_landing.zip"},
+    {"name": "lr0003_seed42", "family": "lr0003", "training_seed": 42, "path": "research/runs/dqn_zoo_lr0003_seed42/best_landing.zip"},
+    {"name": "original_seed7", "family": "lr00063", "training_seed": 7, "path": "research/runs/dqn_zoo_seed7/best_landing.zip"},
+    {"name": "lr0003_seed7", "family": "lr0003", "training_seed": 7, "path": "research/runs/dqn_zoo_lr0003_seed7/best_landing.zip"},
+    {"name": "original_seed123", "family": "lr00063", "training_seed": 123, "path": "research/runs/dqn_zoo_seed123/best_landing.zip"},
+    {"name": "lr0003_seed123", "family": "lr0003", "training_seed": 123, "path": "research/runs/dqn_zoo_lr0003_seed123/best_landing.zip"}
+  ]
+}

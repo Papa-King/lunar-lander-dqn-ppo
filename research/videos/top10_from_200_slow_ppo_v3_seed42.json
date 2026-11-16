@@ -1,0 +1,89 @@
+{
+  "source_result": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/comparisons/phase10_seed42_200_test.json",
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/top10_from_200_slow_ppo_v3_seed42.mp4",
+  "fps": 50,
+  "duration_seconds": 90.06,
+  "selection": "10 calmest eligible episodes from 200, not consecutive",
+  "filmed": [
+    {
+      "rank": 1,
+      "test_episode": 194,
+      "seed": 202049141,
+      "steps": 436,
+      "duration_seconds": 8.74,
+      "reward": 237.848225013647
+    },
+    {
+      "rank": 2,
+      "test_episode": 129,
+      "seed": 1259026955,
+      "steps": 443,
+      "duration_seconds": 8.88,
+      "reward": 215.90286595394124
+    },
+    {
+      "rank": 3,
+      "test_episode": 64,
+      "seed": 1025834697,
+      "steps": 456,
+      "duration_seconds": 9.14,
+      "reward": 213.62194236658732
+    },
+    {
+      "rank": 4,
+      "test_episode": 114,
+      "seed": 192577748,
+      "steps": 457,
+      "duration_seconds": 9.16,
+      "reward": 252.66872522240925
+    },
+    {
+      "rank": 5,
+      "test_episode": 19,
+      "seed": 1615932900,
+      "steps": 460,
+      "duration_seconds": 9.22,
+      "reward": 214.27506164832667
+    },
+    {
+      "rank": 6,
+      "test_episode": 45,
+      "seed": 820962821,
+      "steps": 449,
+      "duration_seconds": 9.0,
+      "reward": 270.18292276583577
+    },
+    {
+      "rank": 7,
+      "test_episode": 165,
+      "seed": 1380567242,
+      "steps": 456,
+      "duration_seconds": 9.14,
+      "reward": 241.80532126333418
+    },
+    {
+      "rank": 8,
+      "test_episode": 34,
+      "seed": 1052317504,
+      "steps": 434,
+      "duration_seconds": 8.7,
+      "reward": 269.62043653356716
+    },
+    {
+      "rank": 9,
+      "test_episode": 30,
+      "seed": 1939073039,
+      "steps": 429,
+      "duration_seconds": 8.6,
+      "reward": 216.476317957433
+    },
+    {
+      "rank": 10,
+      "test_episode": 191,
+      "seed": 703422443,
+      "steps": 473,
+      "duration_seconds": 9.48,
+      "reward": 230.2398799869449
+    }
+  ]
+}

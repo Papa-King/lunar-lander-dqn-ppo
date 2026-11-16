@@ -1,0 +1,31 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Local credentials and temporary files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.tmp
+*.tmp.*
+*.log
+
+# Large, duplicate intermediate research states. Keep selected/ and course weights.
+research/runs/**/*.zip
+research/runs/**/*.pkl
+
+# Retain the six frozen DQN checkpoints used by phase2_compare.py.
+!research/runs/dqn_zoo_seed42/best_landing.zip
+!research/runs/dqn_zoo_seed7/best_landing.zip
+!research/runs/dqn_zoo_seed123/best_landing.zip
+!research/runs/dqn_zoo_lr0003_seed42/best_landing.zip
+!research/runs/dqn_zoo_lr0003_seed7/best_landing.zip
+!research/runs/dqn_zoo_lr0003_seed123/best_landing.zip

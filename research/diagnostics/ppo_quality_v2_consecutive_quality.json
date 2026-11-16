@@ -1,0 +1,220 @@
+{
+  "mode": "consecutive",
+  "model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/runs/ppo_quality_v2_seed123/best_quality.zip",
+  "pad_margin_world": 0.75,
+  "count": 10,
+  "safe_rest_count": 10,
+  "safe_and_inside_pad_count": 10,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 314159265,
+      "steps": 316,
+      "reward": 286.6453727358181,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 9.343626976013184,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 258,
+        "x_normalized": -0.06656770408153534,
+        "vx_normalized": -0.022319452837109566,
+        "vy_normalized": -0.1063929945230484,
+        "angle_radians": -0.034991808235645294,
+        "angular_velocity_normalized": 0.3904285430908203
+      }
+    },
+    {
+      "episode": 2,
+      "seed": null,
+      "steps": 346,
+      "reward": 300.62243867472625,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 9.851696968078613,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 299,
+        "x_normalized": -0.009318256750702858,
+        "vx_normalized": -0.06570360064506531,
+        "vy_normalized": -0.09667892009019852,
+        "angle_radians": -0.015414455905556679,
+        "angular_velocity_normalized": 0.34775131940841675
+      }
+    },
+    {
+      "episode": 3,
+      "seed": null,
+      "steps": 338,
+      "reward": 260.7852978707415,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.13452434539795,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 297,
+        "x_normalized": 0.0073454855009913445,
+        "vx_normalized": 0.10298379510641098,
+        "vy_normalized": -0.08494115620851517,
+        "angle_radians": 0.020757587626576424,
+        "angular_velocity_normalized": -0.30240851640701294
+      }
+    },
+    {
+      "episode": 4,
+      "seed": null,
+      "steps": 354,
+      "reward": 270.48152184335424,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.195693969726562,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 299,
+        "x_normalized": 0.01567525789141655,
+        "vx_normalized": 0.07082276046276093,
+        "vy_normalized": -0.10138757526874542,
+        "angle_radians": 0.030439257621765137,
+        "angular_velocity_normalized": -0.369507372379303
+      }
+    },
+    {
+      "episode": 5,
+      "seed": null,
+      "steps": 313,
+      "reward": 221.1453317438006,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 9.083191871643066,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 276,
+        "x_normalized": -0.09395179897546768,
+        "vx_normalized": 0.04024186357855797,
+        "vy_normalized": -0.08400917798280716,
+        "angle_radians": -0.0012771815527230501,
+        "angular_velocity_normalized": 0.2970859706401825
+      }
+    },
+    {
+      "episode": 6,
+      "seed": null,
+      "steps": 319,
+      "reward": 259.04012731525063,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.04949951171875,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 279,
+        "x_normalized": 0.008086967281997204,
+        "vx_normalized": -0.04893401265144348,
+        "vy_normalized": -0.10905557125806808,
+        "angle_radians": -0.004570069257169962,
+        "angular_velocity_normalized": 0.36175695061683655
+      }
+    },
+    {
+      "episode": 7,
+      "seed": null,
+      "steps": 329,
+      "reward": 250.39862261734146,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.104448318481445,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 291,
+        "x_normalized": 0.008806610479950905,
+        "vx_normalized": 0.040793824940919876,
+        "vy_normalized": -0.10183870047330856,
+        "angle_radians": -0.0002040050458163023,
+        "angular_velocity_normalized": -0.36068296432495117
+      }
+    },
+    {
+      "episode": 8,
+      "seed": null,
+      "steps": 327,
+      "reward": 270.54272296039335,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 9.843122482299805,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 257,
+        "x_normalized": -0.006748867221176624,
+        "vx_normalized": -0.08946146070957184,
+        "vy_normalized": -0.1278194785118103,
+        "angle_radians": -0.049693550914525986,
+        "angular_velocity_normalized": -0.009731514379382133
+      }
+    },
+    {
+      "episode": 9,
+      "seed": null,
+      "steps": 338,
+      "reward": 258.14090312726523,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.041908264160156,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 294,
+        "x_normalized": 0.0032051086891442537,
+        "vx_normalized": 0.0310959555208683,
+        "vy_normalized": -0.08897151798009872,
+        "angle_radians": 0.011820745654404163,
+        "angular_velocity_normalized": -0.3179953694343567
+      }
+    },
+    {
+      "episode": 10,
+      "seed": null,
+      "steps": 331,
+      "reward": 297.19607405432384,
+      "safe_rest": true,
+      "time_limit": false,
+      "final_x_world": 10.02682876586914,
+      "pad_x1_world": 8.0,
+      "pad_x2_world": 12.0,
+      "pad_with_leg_margin": true,
+      "safe_and_inside_pad": true,
+      "first_leg_contact": {
+        "step": 294,
+        "x_normalized": 0.0055217742919921875,
+        "vx_normalized": -0.051221687346696854,
+        "vy_normalized": -0.09663967043161392,
+        "angle_radians": -0.00043777868268080056,
+        "angular_velocity_normalized": 0.34297218918800354
+      }
+    }
+  ]
+}

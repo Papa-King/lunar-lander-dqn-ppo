@@ -1,0 +1,10 @@
+{
+  "algorithm": "dqn",
+  "seed": 7,
+  "learning_rate": 0.0001,
+  "total_timesteps": 100000,
+  "training_seconds": 14.416,
+  "episodes_completed": 271,
+  "mean_training_episode_reward": -113.923,
+  "environment": "LunarLander-v3"
+}

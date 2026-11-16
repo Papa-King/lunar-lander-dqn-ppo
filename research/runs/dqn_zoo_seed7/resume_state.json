@@ -1,0 +1,5 @@
+{
+  "actual_timesteps": 100000,
+  "training_seconds_cumulative": 72.40873187500983,
+  "note": "Resume restarts the environment; it is not a bit-for-bit continuation."
+}

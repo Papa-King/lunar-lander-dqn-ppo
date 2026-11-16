@@ -1,0 +1,21 @@
+{
+  "objective": "Slow real descent and touchdown while preserving safe centered landings on unmodified LunarLander-v3",
+  "source_model": "research/selected/centered_ppo_v2_seed123.zip",
+  "source_validation": {
+    "episodes": 30,
+    "safe_centered_rate": 1.0,
+    "median_safe_centered_duration_seconds": 6.34,
+    "median_safe_centered_abs_touchdown_vy": 0.0931,
+    "median_safe_centered_abs_touchdown_omega": 0.3237
+  },
+  "change": "Add a training-only near-ground penalty for descent faster than a height-dependent target; retain the prior quality_v2 reward and evaluate on the original environment",
+  "additional_training_timesteps": 262144,
+  "validation_seeds": 30,
+  "acceptance_gate": {
+    "safe_centered_rate_at_least": 0.95,
+    "median_safe_centered_duration_seconds_at_least": 7.5,
+    "median_safe_centered_abs_touchdown_vy_at_most": 0.075,
+    "median_safe_centered_abs_touchdown_omega_at_most": 0.324
+  },
+  "note": "Passing validation only permits one frozen comparison on new test seeds; it does not guarantee safe or smooth landings in every episode."
+}

@@ -1,0 +1,16 @@
+{
+  "frozen_before_test": true,
+  "selection_split": "validation",
+  "final_split": "test",
+  "selection_rule": "For each training seed, select the tuned DQN checkpoint with the highest two-leg-contact rate on 30 validation episodes, breaking ties by mean reward. Compare against the classroom DQN checkpoint trained with the same seed for 100000 steps. Do not select or retune using the final test results.",
+  "primary_model": "tuned_seed42",
+  "primary_model_reason": "Among the three tuned checkpoints selected by this rule, seed 42 had the highest validation two-leg-contact rate (28/30) and mean reward above 200.",
+  "models": [
+    {"name": "classroom_seed42", "family": "classroom_dqn", "training_seed": 42, "path": "research/baselines/classroom_dqn_100k_reproduction/artifacts/best_model.zip"},
+    {"name": "tuned_seed42", "family": "zoo_dqn_preset", "training_seed": 42, "path": "research/runs/dqn_zoo_seed42/best_landing.zip"},
+    {"name": "classroom_seed7", "family": "classroom_dqn", "training_seed": 7, "path": "experiment/dqn_100k_seed7/best_model.zip"},
+    {"name": "tuned_seed7", "family": "zoo_dqn_preset", "training_seed": 7, "path": "research/runs/dqn_zoo_seed7/best_landing.zip"},
+    {"name": "classroom_seed123", "family": "classroom_dqn", "training_seed": 123, "path": "research/baselines/classroom_dqn_100k_seed123/artifacts/best_model.zip"},
+    {"name": "tuned_seed123", "family": "zoo_dqn_preset", "training_seed": 123, "path": "research/runs/dqn_zoo_seed123/best_landing.zip"}
+  ]
+}

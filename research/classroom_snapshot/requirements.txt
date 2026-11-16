@@ -1,0 +1,9 @@
+gymnasium[box2d]==1.4.0
+stable-baselines3==2.9.2
+torch==2.15.0
+streamlit==1.66.1
+pandas==2.3.3
+numpy==2.5.4
+tqdm==4.70.1
+rich==14.3.4
+moviepy==2.2.1

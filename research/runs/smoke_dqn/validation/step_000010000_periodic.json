@@ -1,0 +1,45 @@
+{
+  "environment": "LunarLander-v3",
+  "evaluation_episodes": 3,
+  "mean_reward": -238.0852628555491,
+  "reward_std": 46.850218297126126,
+  "two_leg_landing_rate": 0.0,
+  "score_200_rate": 0.0,
+  "mean_action_switch_rate": 0.03262414906250522,
+  "truncation_rate": 0.0,
+  "episodes": [
+    {
+      "seed": 786669,
+      "reward": -210.83685979664645,
+      "steps": 85,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.023809523809523808
+    },
+    {
+      "seed": 672511,
+      "reward": -304.0120248365428,
+      "steps": 92,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.03296703296703297
+    },
+    {
+      "seed": 229200,
+      "reward": -199.40690393345804,
+      "steps": 74,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.0410958904109589
+    }
+  ],
+  "step": 10000,
+  "checkpoint_kind": "periodic",
+  "split": "validation"
+}

@@ -1,0 +1,9 @@
+{
+  "algorithm": "ppo",
+  "environment": "LunarLander-v3",
+  "seed": 123,
+  "requested_target_timesteps": 32768,
+  "actual_timesteps": 32768,
+  "episodes_completed": 343,
+  "training_seconds_cumulative": 2.5712709999643266
+}

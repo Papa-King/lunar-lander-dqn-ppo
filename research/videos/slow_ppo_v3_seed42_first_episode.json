@@ -1,0 +1,14 @@
+{
+  "source_video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/ten_consecutive_slow_ppo_v3_seed42_start1600619302.mp4",
+  "source_episode": 1,
+  "source_start_frame": 0,
+  "source_end_frame_exclusive": 481,
+  "frames": 481,
+  "fps": 50,
+  "duration_seconds": 9.62,
+  "reward": 245.50131826614324,
+  "outcome": "safe_rest",
+  "model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/selected/slow_ppo_v3_seed42.zip",
+  "model_sha256": "393a894c7ec3635b9fbee5b3bc70c2c66d78cf58220bc6eea7d39e285f639f9b",
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/slow_ppo_v3_seed42_first_episode.mp4"
+}

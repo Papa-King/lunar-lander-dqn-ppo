@@ -1,0 +1,12 @@
+{
+  "frozen_before_test6": true,
+  "question": "Does quality_v2 PPO fine-tuning preserve safe centered landings across three fine-tuning seeds, and how variable is gentleness?",
+  "shared_pretrained_model": "research/runs/ppo_zoo_seed123/checkpoints/step_000983040_periodic.zip",
+  "scope_note": "These are independent fine-tuning seeds from one shared PPO pretraining run, not three fully independent PPO training seeds.",
+  "models": [
+    {"name": "ppo_original", "path": "research/runs/ppo_zoo_seed123/checkpoints/step_000983040_periodic.zip"},
+    {"name": "ppo_v2_seed123", "path": "research/runs/ppo_quality_v2_seed123/best_quality.zip"},
+    {"name": "ppo_v2_seed7", "path": "research/runs/ppo_quality_v2_finetune_seed7/best_quality.zip"},
+    {"name": "ppo_v2_seed42", "path": "research/runs/ppo_quality_v2_finetune_seed42/best_quality.zip"}
+  ]
+}

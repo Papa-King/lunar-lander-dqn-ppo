@@ -1,0 +1,99 @@
+{
+  "step": 1015808,
+  "checkpoint_kind": "final",
+  "selection_key": [
+    1.0,
+    1.0,
+    268.6811163410257
+  ],
+  "validation": {
+    "environment": "LunarLander-v3",
+    "evaluation_episodes": 3,
+    "mean_reward": 268.6811163410257,
+    "reward_std": 26.42417583303419,
+    "two_leg_landing_rate": 1.0,
+    "safe_landing_rate": 1.0,
+    "safe_centered_rate": 1.0,
+    "safe_centered_gentle_rate": 0.0,
+    "score_200_rate": 1.0,
+    "mean_action_switch_rate": 0.600000711817987,
+    "truncation_rate": 0.0,
+    "episodes": [
+      {
+        "seed": 786669,
+        "reward": 287.4762543898506,
+        "steps": 363,
+        "terminated": true,
+        "truncated": false,
+        "terminal_reward": 100.0,
+        "safe_landing": true,
+        "final_x_world": 10.429182052612305,
+        "pad_centered_with_leg_margin": true,
+        "gentle_first_contact": false,
+        "safe_centered": true,
+        "safe_centered_gentle": false,
+        "first_leg_contact": {
+          "step": 293,
+          "vx": -0.12068339437246323,
+          "vy": -0.1441793143749237,
+          "angle": -0.03200042247772217,
+          "omega": -0.006994524504989386
+        },
+        "two_leg_contact_at_end": true,
+        "score_at_least_200": true,
+        "action_switch_rate": 0.5580110497237569
+      },
+      {
+        "seed": 672511,
+        "reward": 287.255188169035,
+        "steps": 333,
+        "terminated": true,
+        "truncated": false,
+        "terminal_reward": 100.0,
+        "safe_landing": true,
+        "final_x_world": 10.734331130981445,
+        "pad_centered_with_leg_margin": true,
+        "gentle_first_contact": false,
+        "safe_centered": true,
+        "safe_centered_gentle": false,
+        "first_leg_contact": {
+          "step": 292,
+          "vx": -0.058303944766521454,
+          "vy": -0.10350777208805084,
+          "angle": 0.00012984813656657934,
+          "omega": 0.0365971103310585
+        },
+        "two_leg_contact_at_end": true,
+        "score_at_least_200": true,
+        "action_switch_rate": 0.6234939759036144
+      },
+      {
+        "seed": 229200,
+        "reward": 231.31190646419142,
+        "steps": 347,
+        "terminated": true,
+        "truncated": false,
+        "terminal_reward": 100.0,
+        "safe_landing": true,
+        "final_x_world": 9.31713581085205,
+        "pad_centered_with_leg_margin": true,
+        "gentle_first_contact": false,
+        "safe_centered": true,
+        "safe_centered_gentle": false,
+        "first_leg_contact": {
+          "step": 286,
+          "vx": 0.05805208161473274,
+          "vy": -0.13123121857643127,
+          "angle": -0.013961056247353554,
+          "omega": 0.38528913259506226
+        },
+        "two_leg_contact_at_end": true,
+        "score_at_least_200": true,
+        "action_switch_rate": 0.6184971098265896
+      }
+    ],
+    "step": 1015808,
+    "checkpoint_kind": "final",
+    "split": "validation"
+  }
+}

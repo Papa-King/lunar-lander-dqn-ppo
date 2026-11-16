@@ -1,0 +1,12 @@
+{
+  "frozen_before_test7": true,
+  "objective": "Make real PPO descents slower and touch down more gently while keeping safe centered landings",
+  "primary_candidate": "ppo_slow_v3_seed123",
+  "validation_selection": "Select the checkpoint with the highest safe-centered-gentle rate among the checkpoints that have at least 95% safe-centered rate, median safe-centered flight duration at least 7.5 s, median absolute touchdown vy at most 0.075, and median absolute touchdown omega at most 0.324. This selected the 1409024-step periodic checkpoint before test7.",
+  "test_acceptance": "Treat the slow candidate as better only if its held-out safe-centered rate is at least 95%, its median safe-centered flight duration is at least 7.5 s, its median absolute touchdown vy is lower than the base PPO, and its mean reward remains at least 200. Report all failures and the reward tradeoff.",
+  "models": [
+    {"name": "ppo_base_v2", "algorithm": "ppo", "path": "research/selected/centered_ppo_v2_seed123.zip"},
+    {"name": "ppo_slow_v3_seed123", "algorithm": "ppo", "path": "research/selected/slow_ppo_v3_seed123.zip"},
+    {"name": "dqn_100k", "algorithm": "dqn", "path": "research/selected/softer_dqn_seed123.zip"}
+  ]
+}

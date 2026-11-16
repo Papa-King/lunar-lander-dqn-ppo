@@ -1,0 +1,13 @@
+{
+  "frozen_before_test8": true,
+  "question": "Does the slower-descent fine-tune generalize across three independent fine-tuning seeds from one shared pretrained PPO model?",
+  "scope_note": "The base PPO pretraining is shared; these are three independent fine-tuning seeds, not three independent PPO trainings from scratch.",
+  "selection_rule": "For each fine-tuning run, use the best_quality.zip checkpoint chosen on 30 validation starts by safe-centered-gentle rate, then safe-centered rate and mean reward. All three paths were frozen before test8.",
+  "test_acceptance": "Each slow model should retain at least 95% safe-centered rate, median safe-centered duration at least 7.5 seconds, median absolute touchdown vy lower than the base PPO, and mean reward at least 200. Report score and switch-rate tradeoffs.",
+  "models": [
+    {"name": "ppo_base_v2", "path": "research/selected/centered_ppo_v2_seed123.zip"},
+    {"name": "ppo_slow_v3_seed123", "path": "research/selected/slow_ppo_v3_seed123.zip"},
+    {"name": "ppo_slow_v3_seed7", "path": "research/selected/slow_ppo_v3_seed7.zip"},
+    {"name": "ppo_slow_v3_seed42", "path": "research/selected/slow_ppo_v3_seed42.zip"}
+  ]
+}

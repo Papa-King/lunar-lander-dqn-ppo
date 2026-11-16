@@ -1,0 +1,27 @@
+{
+  "centered_ppo_v2_seed123": {
+    "source": "research/runs/ppo_quality_v2_seed123/best_quality.zip",
+    "copy": "research/selected/centered_ppo_v2_seed123.zip",
+    "sha256": "0a4b546c32564b9e869be677855cadf53c927576a7eede15f8185d786ac98c1a"
+  },
+  "softer_dqn_seed123": {
+    "source": "research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip",
+    "copy": "research/selected/softer_dqn_seed123.zip",
+    "sha256": "3f584dd829a94312a372a45b3b9036eba15772bc8d8edb46e9cf192000b7e6ab"
+  },
+  "slow_ppo_v3_seed123": {
+    "source": "research/runs/ppo_slow_v3_seed123/best_quality.zip",
+    "copy": "research/selected/slow_ppo_v3_seed123.zip",
+    "sha256": "4a991e03666bbe7c4b81c7a013a656edcfa1749651a4ccecce04e72b84955c3a"
+  },
+  "slow_ppo_v3_seed7": {
+    "source": "research/runs/ppo_slow_v3_seed7/best_quality.zip",
+    "copy": "research/selected/slow_ppo_v3_seed7.zip",
+    "sha256": "3efe43a75937c31a5f82355b4a03183f28f569c817ca2f7ecff139e8dc61b669"
+  },
+  "slow_ppo_v3_seed42": {
+    "source": "research/runs/ppo_slow_v3_seed42/best_quality.zip",
+    "copy": "research/selected/slow_ppo_v3_seed42.zip",
+    "sha256": "393a894c7ec3635b9fbee5b3bc70c2c66d78cf58220bc6eea7d39e285f639f9b"
+  }
+}

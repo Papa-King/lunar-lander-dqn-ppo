@@ -1,0 +1,10 @@
+{
+  "algorithm": "ppo",
+  "seed": 42,
+  "learning_rate": 0.0003,
+  "total_timesteps": 100000,
+  "training_seconds": 18.693,
+  "episodes_completed": 372,
+  "mean_training_episode_reward": -84.894,
+  "environment": "LunarLander-v3"
+}

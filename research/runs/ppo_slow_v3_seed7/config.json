@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "algorithm": "ppo",
+    "environment": "LunarLander-v3",
+    "seed": 7,
+    "n_envs": 16,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "gae_lambda": 0.98,
+    "gamma": 0.999,
+    "n_epochs": 4,
+    "ent_coef": 0.01,
+    "learning_rate": 0.0001,
+    "clip_range": 0.2,
+    "eval_every": 32768,
+    "validation_count": 30,
+    "source": "RL Baselines3 Zoo hyperparams/ppo.yml LunarLander-v3",
+    "init_model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/selected/centered_ppo_v2_seed123.zip",
+    "reward_mode": "quality_v3_slow"
+  },
+  "versions": {
+    "python": "3.12.16",
+    "gymnasium": "1.4.0",
+    "stable_baselines3": "2.9.2",
+    "torch": "2.15.0"
+  },
+  "device": "cpu",
+  "evaluation_environment": "unwrapped LunarLander-v3"
+}

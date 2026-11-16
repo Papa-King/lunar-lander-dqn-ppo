@@ -1,0 +1,45 @@
+{
+  "environment": "LunarLander-v3",
+  "evaluation_episodes": 3,
+  "mean_reward": -135.74495271507806,
+  "reward_std": 30.526509352462604,
+  "two_leg_landing_rate": 0.3333333333333333,
+  "score_200_rate": 0.0,
+  "mean_action_switch_rate": 0.0,
+  "truncation_rate": 0.0,
+  "episodes": [
+    {
+      "seed": 786669,
+      "reward": -94.65702326447595,
+      "steps": 85,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.0
+    },
+    {
+      "seed": 672511,
+      "reward": -167.76228660404408,
+      "steps": 78,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": false,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.0
+    },
+    {
+      "seed": 229200,
+      "reward": -144.81554827671417,
+      "steps": 73,
+      "terminated": true,
+      "truncated": false,
+      "two_leg_contact_at_end": true,
+      "score_at_least_200": false,
+      "action_switch_rate": 0.0
+    }
+  ],
+  "model": "best_reward",
+  "split": "validation",
+  "model_path": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/runs/smoke_dqn/best_reward.zip"
+}

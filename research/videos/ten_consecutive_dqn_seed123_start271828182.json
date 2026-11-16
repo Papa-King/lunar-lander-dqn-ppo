@@ -1,0 +1,91 @@
+{
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/ten_consecutive_dqn_seed123_start271828182.mp4",
+  "model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/selected/softer_dqn_seed123.zip",
+  "algorithm": "dqn",
+  "environment": "LunarLander-v3",
+  "initial_reset_seed": 271828182,
+  "subsequent_resets": "unseeded; continue the same environment RNG stream",
+  "deterministic_actions": true,
+  "fps": 50,
+  "frames": 4250,
+  "duration_seconds": 85.0,
+  "counts": {
+    "safe_rest": 10,
+    "crash": 0,
+    "out_of_bounds": 0,
+    "time_limit": 0,
+    "other": 0
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "steps": 453,
+      "reward": 220.28546016813016,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 2,
+      "steps": 418,
+      "reward": 252.89342645486533,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 3,
+      "steps": 444,
+      "reward": 234.76890849668976,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 4,
+      "steps": 465,
+      "reward": 273.87680253223743,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 5,
+      "steps": 408,
+      "reward": 246.2326993382741,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 6,
+      "steps": 292,
+      "reward": 239.02395173869758,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 7,
+      "steps": 304,
+      "reward": 260.9157632172411,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 8,
+      "steps": 439,
+      "reward": 233.37849002898398,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    },
+    {
+      "episode": 9,
+      "steps": 463,
+      "reward": 241.24732177663688,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": false
+    },
+    {
+      "episode": 10,
+      "steps": 554,
+      "reward": 222.3258569253618,
+      "outcome": "safe_rest",
+      "final_two_leg_contact": true
+    }
+  ]
+}

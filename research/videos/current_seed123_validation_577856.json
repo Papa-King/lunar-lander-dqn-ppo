@@ -1,0 +1,13 @@
+{
+  "environment": "LunarLander-v3",
+  "evaluation_seed": 577856,
+  "steps": 275,
+  "reward": 216.4714569824077,
+  "safe_rest": true,
+  "fps": 50,
+  "duration_seconds": 5.52,
+  "video": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/videos/current_seed123_validation_577856.mp4",
+  "model_at_recording": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/runs/dqn_zoo_lr0003_seed123/best_landing.zip",
+  "model": "/Users/papa/Desktop/SDS/Course/AIE1101/Week 8/5-2/My_Lander/research/runs/dqn_zoo_lr0003_seed123/checkpoints/step_000100000.zip",
+  "model_sha256": "3f584dd829a94312a372a45b3b9036eba15772bc8d8edb46e9cf192000b7e6ab"
+}
